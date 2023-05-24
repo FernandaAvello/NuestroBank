@@ -10,4 +10,9 @@ const getMessage = () => {
 
   let message = document.getElementById('message')
   message.innerHTML = `¡NO TE PREOCUPES! PUEDES PAGARLO EN ${cuots} CUOTAS DE ${chileanMoney.format(cuotValue)} `
+  console.log(cuots, cuotValue, totalDebt)
+  if (isNaN(cuots) || isNaN(cuotValue) || isNaN(interest))
+  {
+    message.innerHTML = 'INGRESA LOS DATOS SOLICITADOS ARRIBA'
+  }
 }
