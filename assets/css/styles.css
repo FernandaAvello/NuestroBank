@@ -38,3 +38,13 @@ input {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#contact-form {
+    border: 1px solid #e9ebec;
+    background-color: #f8f9fa;
+    padding: 5%;
+}
+.contact-form-title {
+    text-align: center;
+    padding-bottom: 2rem;
+}
